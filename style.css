@@ -239,6 +239,7 @@ header .nav ul li a:hover{
     top: 100px;
     left: 200px;
     overflow: hidden;
+    
 }
 .section4 h1{
     font-size: 45px;
@@ -337,6 +338,7 @@ header .nav ul li a:hover{
     text-align: center;
     border: 1px solid rgba(0,0,0, 0.1);
     padding: 0px 10px;
+    margin: auto;
 }
 .section6 .card1 h1{
     font-size: 50px;
@@ -377,6 +379,7 @@ footer{
     position: absolute;
     color: white;
     margin-top: 200px;
+    
 }
 footer .foot{
     width: 80%;
@@ -452,9 +455,9 @@ footer .foot .foot1 i:hover{
         font-size: 20px; 
         text-align: center;
 
-}
+    }
 
-@media (max-width:768px){
+    @media (max-width:768px){
 
     .section1 {
         width: 100%;
@@ -596,5 +599,13 @@ footer{
 
 }
 
+}
+@media only screen and (max-width:600px){
+    .section6 .card{
+        left: 0px;
+    }
+    .section2 .img2 {
+        padding: 0px;
+    }
 }
 
